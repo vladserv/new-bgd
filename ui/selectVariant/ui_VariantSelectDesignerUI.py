@@ -3,27 +3,26 @@
 ################################################################################
 ## Form generated from reading UI file 'VariantSelectDesignerUI.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.2
+## Created by: Qt User Interface Compiler version 5.15.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import (QCoreApplication, QMetaObject, QRect)
-from PySide2.QtGui import (QFont)
-from PySide2.QtWidgets import (QComboBox, QLabel, QMenuBar, QPushButton, QStatusBar,
-                               QWidget)
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(640, 480)
+        MainWindow.resize(628, 480)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.VariantTextField = QLabel(self.centralwidget)
         self.VariantTextField.setObjectName(u"VariantTextField")
-        self.VariantTextField.setGeometry(QRect(190, 130, 231, 31))
+        self.VariantTextField.setGeometry(QRect(190, 130, 281, 31))
         font = QFont()
         font.setPointSize(15)
         self.VariantTextField.setFont(font)
@@ -35,7 +34,7 @@ class Ui_MainWindow(object):
         self.VariantSelectButton.setFont(font1)
         self.label = QLabel(self.centralwidget)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(40, 50, 631, 61))
+        self.label.setGeometry(QRect(10, 50, 601, 61))
         font2 = QFont()
         font2.setPointSize(16)
         self.label.setFont(font2)
@@ -58,7 +57,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 640, 22))
+        self.menubar.setGeometry(QRect(0, 0, 628, 26))
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(MainWindow)
         self.statusbar.setObjectName(u"statusbar")

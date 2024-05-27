@@ -3,20 +3,15 @@
 ################################################################################
 ## Form generated from reading UI file 'taskSelect.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.2
+## Created by: Qt User Interface Compiler version 5.15.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-    QMetaObject, QObject, QPoint, QRect,
-    QSize, QTime, QUrl, Qt)
-from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-    QFont, QFontDatabase, QGradient, QIcon,
-    QImage, QKeySequence, QLinearGradient, QPainter,
-    QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide2.QtWidgets import (QApplication, QLabel, QMainWindow, QPushButton,
-    QSizePolicy, QWidget)
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -27,9 +22,9 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.task_selection_lable = QLabel(self.centralwidget)
         self.task_selection_lable.setObjectName(u"task_selection_lable")
-        self.task_selection_lable.setGeometry(QRect(40, 40, 561, 91))
+        self.task_selection_lable.setGeometry(QRect(40, 40, 591, 91))
         font = QFont()
-        font.setPointSize(20)
+        font.setPointSize(16)
         self.task_selection_lable.setFont(font)
         self.task_1 = QPushButton(self.centralwidget)
         self.task_1.setObjectName(u"task_1")

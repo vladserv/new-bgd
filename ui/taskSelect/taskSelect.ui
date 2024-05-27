@@ -19,13 +19,13 @@
      <rect>
       <x>40</x>
       <y>40</y>
-      <width>561</width>
+      <width>591</width>
       <height>91</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>16</pointsize>
      </font>
     </property>
     <property name="text">

@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
+    <width>628</width>
     <height>480</height>
    </rect>
   </property>
@@ -19,7 +19,7 @@
      <rect>
       <x>190</x>
       <y>130</y>
-      <width>231</width>
+      <width>281</width>
       <height>31</height>
      </rect>
     </property>
@@ -53,9 +53,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>40</x>
+      <x>10</x>
       <y>50</y>
-      <width>631</width>
+      <width>601</width>
       <height>61</height>
      </rect>
     </property>
@@ -145,15 +145,13 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>640</width>
-     <height>22</height>
+     <width>628</width>
+     <height>26</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources>
-  <include location="firstSlide.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

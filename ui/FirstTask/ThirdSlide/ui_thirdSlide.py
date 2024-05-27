@@ -3,21 +3,15 @@
 ################################################################################
 ## Form generated from reading UI file 'thirdSlide.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.6.2
+## Created by: Qt User Interface Compiler version 5.15.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
-    QMetaObject, QObject, QPoint, QRect,
-    QSize, QTime, QUrl, Qt)
-from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
-    QFont, QFontDatabase, QGradient, QIcon,
-    QImage, QKeySequence, QLinearGradient, QPainter,
-    QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide2.QtWidgets import (QApplication, QComboBox, QLabel, QLineEdit,
-    QMainWindow, QPushButton, QSizePolicy, QStatusBar,
-    QWidget)
+from PySide2.QtCore import *
+from PySide2.QtGui import *
+from PySide2.QtWidgets import *
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -28,17 +22,17 @@ class Ui_MainWindow(object):
         self.centralwidget.setObjectName(u"centralwidget")
         self.lineEdit = QLineEdit(self.centralwidget)
         self.lineEdit.setObjectName(u"lineEdit")
-        self.lineEdit.setGeometry(QRect(170, 360, 451, 31))
+        self.lineEdit.setGeometry(QRect(200, 360, 421, 31))
         font = QFont()
         font.setPointSize(17)
         self.lineEdit.setFont(font)
         self.label_2 = QLabel(self.centralwidget)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setGeometry(QRect(70, 350, 101, 41))
+        self.label_2.setGeometry(QRect(100, 350, 101, 41))
         self.label_2.setFont(font)
         self.pushButton = QPushButton(self.centralwidget)
         self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(640, 360, 111, 31))
+        self.pushButton.setGeometry(QRect(640, 360, 131, 31))
         font1 = QFont()
         font1.setPointSize(12)
         self.pushButton.setFont(font1)
@@ -52,21 +46,21 @@ class Ui_MainWindow(object):
         self.comboBox.addItem("")
         self.comboBox.addItem("")
         self.comboBox.setObjectName(u"comboBox")
-        self.comboBox.setGeometry(QRect(520, 250, 91, 31))
+        self.comboBox.setGeometry(QRect(510, 250, 101, 31))
         self.comboBox.setFont(font)
         self.comboBox.setStyleSheet(u"")
         self.comboBox.setMinimumContentsLength(0)
         self.label_3 = QLabel(self.centralwidget)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(480, 240, 101, 41))
+        self.label_3.setGeometry(QRect(460, 240, 101, 41))
         self.label_3.setFont(font)
         self.label_4 = QLabel(self.centralwidget)
         self.label_4.setObjectName(u"label_4")
-        self.label_4.setGeometry(QRect(40, 300, 131, 41))
+        self.label_4.setGeometry(QRect(40, 300, 161, 41))
         self.label_4.setFont(font)
         self.lineEdit_2 = QLineEdit(self.centralwidget)
         self.lineEdit_2.setObjectName(u"lineEdit_2")
-        self.lineEdit_2.setGeometry(QRect(170, 310, 451, 31))
+        self.lineEdit_2.setGeometry(QRect(200, 310, 421, 31))
         self.lineEdit_2.setFont(font)
         self.label = QLabel(self.centralwidget)
         self.label.setObjectName(u"label")
